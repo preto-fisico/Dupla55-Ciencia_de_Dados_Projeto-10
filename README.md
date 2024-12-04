@@ -20,4 +20,10 @@ Bibliotecas utilizadas:
 
 Foram utilizadas as bibliotecas TensorFlow/Keras, Pandas, NumPy, Matplotlib, Scikit-learn, Google Colab Drive, Shutil e ImageDataGenerator.
 
+Conclusões e reflexões sobre os resultados obtidos:
+
+O modelo final alcançou uma acurácia de 71,05%, com AUC-ROC de 0,6859, indicando uma moderada capacidade de separação entre as classes. O F1-Score foi de 0,6154, demonstrando uma melhora significativa no equilíbrio entre precisão e recall. O ajuste no limiar de classificação contribuiu para essa melhoria nas métricas, mostrando que o modelo respondeu bem às otimizações realizadas nos hiperparâmetros e no treinamento. Os resultados  pode ser considerados moderados. Dataset limitado e com classes desbalanceadas foi um  desafio, muitos ajustes forma nescessários para atingir esse resultado.
+
+Uma solução para melhorar o modelo, dado o dataset limitado e sem expansão, seria utilizar inputs dinâmicos com rotulação manual, permitindo supervisão humana no ajuste de erros e padrões difíceis. Esse processo envolve revisão de imagens classificadas, ajustes no modelo com base em erros e documentação das correções para validar melhorias. Além disso, intervenção direta no treinamento pode auxiliar no ajuste de pesos e otimização dos hiperparâmetros. Essa abordagem combina supervisão humana e aprendizado automático para maximizar o desempenho em cenários desafiadores.
+
 Autores e Colaboradores: Leonardo dos Santos Vaz Ivanildo Gomes da Silva
